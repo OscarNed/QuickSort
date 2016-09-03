@@ -11,11 +11,11 @@ import java.util.Scanner;
 public class QuickSort {
 
     public static void main(String[] args) {
-        int array [] = Algoritmo.setArray();
+        int array [] = Algoritmo.setArray(); //Manda a llamar al metodo que crea el arreglo.
         System.out.println("Este es su arreglo:");
-        System.out.println(Arrays.toString(array));
-        array = Algoritmo.Ordenamiento(array);
-        System.out.println("Este es su arreglo ordenado:");
-        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(array)); //Muestra el arreglo.
+        array = Algoritmo.Ordenamiento(array); //Manda a llamar al método que ordena el arreglo.
+        System.out.println("Este es su arreglo ordenado:"); 
+        System.out.println(Arrays.toString(array)); //Muestra el arreglo ordenado.
     }
 }
